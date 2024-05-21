@@ -1,0 +1,28 @@
+using namespace std; class A
+public:
+int a
+void get()
+cout<<"enter a";
+class B
+public:
+int k;
+void geth()
+cout<<"enter b";
+);
+class C: public public B
+public:
+int c:
+void add()
+void display()
+cout<<"23100BTCSE14751"<<endl;
+cout<<"Akshay Vishwakarma"<<endl; 
+cout<<"a is="<<<<endl;
+cout<<"b is="<<<<endl;
+cout<<"c is="<<<<<endl;
+);
+int main()
+Cs1;
+s1.get();
+s1.add();
+s1.display();
+)
