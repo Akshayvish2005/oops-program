@@ -1,0 +1,14 @@
+//default argument
+#include<iostream>
+using namespace std;
+void mul(int a, int b,int c=1);
+int main(){
+mul(6.2.4);
+mul(12,1,2);
+mul(8,12);
+} void mul(int a, int b,int c){
+int m=a*b*c;
+cout<<"AKSHAY VISHWAKARMA"<<endl;
+cout<<"23100BTCSE14751"<<endl;
+cout<<m;
+}
