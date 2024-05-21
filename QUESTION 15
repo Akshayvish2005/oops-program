@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+class Box
+{
+private:
+int length;
+public:
+Box()
+{ length=0;
+}
+friend int printLength (Box b);
+};
+int printLength (Box b)
+{
+b.length += 10;
+return b.length;
+}
+int main()
+{
+Box b;
+cout<<"AKSHAY VISHWAKARMA"<<endl;
+cout<<"23100BTCSE14751"<<endl;
+cout<<"Length of box: "<< printLength(b)<<endl;
+return 0;
+}
