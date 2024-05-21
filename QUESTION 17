@@ -1,0 +1,29 @@
+include<iostream>
+using namespace std;
+class student
+{
+public:
+int id;
+string name;
+public:
+void get()
+{ cout<<"enter id.name"; cin>>id>>name;
+};
+}
+class show: public student
+{
+public:
+string address;
+show (string address)
+{
+this->address=address;
+}
+void display()
+cout<<"Akshay Vishwakarma"<<endl; cout<<"23100BTCSE14751"<<endl; cout<<"id is="<<id<<endl; cout<<"name is="<<name<<endl; cout<<"address is="<<address<<endl; }
+};
+int main()
+{
+show s1("indore");
+s1.get();
+s1.display();
+}
