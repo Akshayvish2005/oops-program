@@ -1,0 +1,7 @@
+#include <iostream> using namespace std;
+int main(){
+cout<<"AKSHAY VISHWAKARMA "<<endl;
+cout<<"23100BTCSE14751"<<endl;
+cout<<"HELLO WORLD"<<endl;
+return 0;
+}
