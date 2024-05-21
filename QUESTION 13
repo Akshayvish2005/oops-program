@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+class Number {
+private:
+int num;
+public:
+// Default constructor
+Number(): num (e) {}
+// Parameterized constructor Number (int n): num (n) {}
+// Copy constructor
+Number (const Number &other) {
+num = other.num;
+}
+// Function to display the number
+void display() {
+cout<<"Number:"<<num<<endl;
+}
+};
+int main() {
+// Create an object of Number using parameterized constructor
+Number original(10);
+cout<<"AKSHAY VISHWAKARMA"<<endl;
+cout<<"23100BTCSE14751"<<endl;
+cout<<"Original object:"<<endl;
+original.display();
+// Create a new object and initialize it using the copy constructor
+Number copied = original;
+cout<<"\nCopied object (using copy constructor): "<<endl; copied.display();
+}
