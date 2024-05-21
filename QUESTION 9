@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+void swap(int a, int b);
+int main(){
+int a=4;
+int b=8;
+cout<<"section a"<<endl;
+cout<<"AKSHAY VISHWAKARMA"<<endl;
+cout<<"23100BTCSE14751"<<endl;
+cout<<"value of a before swapping is: "<<a<<endl;
+cout<<"value of b before swapping is : "<<b<<endl;
+swap(a,b);
+return 0;
+}
+void swap(int a, int b)
+{
+int c;
+c=a;
+a=b;
+cout<<"after swap value of a is:"<<a<<endl;
+cout<<"after swap value of a is: "<<a<<endl;
+}
