@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+class shape {
+public:
+int 1,b;
+void get()
+{
+}
+cout<<"enter 1,b";
+cin>>1>>b;
+};
+class rect: public shape {
+public:
+int a;
+void area()
+{ a=1*b;
+}
+void display()
+cout<<"area of rect"<<a;
+};
+}
+class rect1: public shape {
+public:
+int p;
+void perimeter()
+{
+p=2*(1+b);
+}
+void show()
+{ cout<<"Akshay Vishwakarma"<<endl; cout<<"23100BTCSE14751'<<endl; cout<<"perimeter of rect"<<p; }
+};
+int main(){
+rect r1;
+r1.get();
+r1.area();
+r1.display();
+rect1 r2;
+r2.get();
+r2.perimeter();
+r2.show();
+}
