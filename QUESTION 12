@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+class Rectangle {
+private:
+double length;
+public:
+double width;
+// Parameterized constructor
+Rectangle(double len, double wid) {
+length = len;
+}
+width = wid;
+// Function to calculate the area
+double calculateArea() {
+return length * width;
+}
+// Function to calculate the perimeter
+double calculatePerimeter() {
+return 2* (length + width);
+}
+};
+int main() {
+double length, width;
+// Taking input from the user cout<<"AKSHAY VISHWAKARMA"<<endl; cout<<"23100BTCSE14751"<<endl;
+cout << "Enter the length of the rectangle: ";
+cin >> length;
+cout << "Enter the width of the rectangle: ";
+cin >> width;
+// Creating an object of Rectangle with a parameterized constructor
+Rectangle rect(length, width);
+// Calculating and displaying the area
+double area = rect.calculateArea();
+std::cout << "Area of the rectangle: << area << std::endl;
+// Calculating and displaying the perimeter
+double perimeter rect.calculatePerimeter();
+std::cout << "Perimeter of the rectangle: " << perimeter << std::endl;
+return e;
+}
