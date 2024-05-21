@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class student{
+private:
+int roll_no;
+char section;
+public:
+student(){
+roll_no = 51;
+section='a';
+cout<<"default constructor"<<endl;
+}
+void display() {
+cout<<"AKSHAY VISHWAKARMA";
+cout<<roll_no<<endl;
+cout<<section<<endl;
+}
+};
+int main(){
+student s1;
+s1.display();
+return 0;
+}
